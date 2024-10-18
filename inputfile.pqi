@@ -1,0 +1,426 @@
+DATABASE C:\Program Files (x86)\USGS\Phreeqc Interactive 3.4.0-12927\database\sit.dat
+KNOBS
+    -iterations            ####iterations####
+    -convergence_tolerance ####convergence_tolerance####
+    -tolerance             ####tolerance####
+    -step_size             ####step_size####
+    -pe_step_size          ####pe_step_size####
+
+SOLUTION 1
+ temp 25 
+ pH           ####sol_pH_text#### 
+ pe           ####sol_pe_text#### 
+ redox        pe 
+ units        mg/l 
+ density      1
+ Alkalinity   ####sol_Alkalinity_text#### 
+ C(4)         ####sol_C_text####    as CO3-2
+ Ca           ####sol_Ca_text#### 
+ Cl           ####sol_Cl_text#### 
+ F            ####sol_F_text#### 
+ Fe           ####sol_Fe_text#### 
+ K            ####sol_K_text#### 
+ Mg           ####sol_Mg_text#### 
+ Na           ####sol_Na_text#### 
+ S(6)         ####sol_S_text####    as SO4-2
+ Si           ####sol_Si_text####   as SiO2
+ -water       1 # kg
+END
+#SOLUTION_SPECIES_deleter# SOLUTION_SPECIES
+#SOLUTION_SPECIES_TEXT_1_1_deleter#    #SOLUTION_SPECIES_TEXT_1_1#
+#SOLUTION_SPECIES_TEXT_1_2_deleter#    log_k     #SOLUTION_SPECIES_TEXT_1_2#
+#SOLUTION_SPECIES_TEXT_1_3_deleter#    delta_h   #SOLUTION_SPECIES_TEXT_1_3# kj/mol
+#SOLUTION_SPECIES_TEXT_1_4_deleter#    -analytical_expression #SOLUTION_SPECIES_TEXT_1_4# #SOLUTION_SPECIES_TEXT_1_5# #SOLUTION_SPECIES_TEXT_1_6# #SOLUTION_SPECIES_TEXT_1_7# #SOLUTION_SPECIES_TEXT_1_8# #SOLUTION_SPECIES_TEXT_1_9#
+
+#SOLUTION_SPECIES_TEXT_2_1_deleter#    #SOLUTION_SPECIES_TEXT_2_1#
+#SOLUTION_SPECIES_TEXT_2_2_deleter#    log_k     #SOLUTION_SPECIES_TEXT_2_2#
+#SOLUTION_SPECIES_TEXT_2_3_deleter#    delta_h   #SOLUTION_SPECIES_TEXT_2_3# kj/mol
+#SOLUTION_SPECIES_TEXT_2_4_deleter#    -analytical_expression #SOLUTION_SPECIES_TEXT_2_4# #SOLUTION_SPECIES_TEXT_2_5# #SOLUTION_SPECIES_TEXT_2_6# #SOLUTION_SPECIES_TEXT_2_7# #SOLUTION_SPECIES_TEXT_2_8# #SOLUTION_SPECIES_TEXT_2_9#
+
+END
+#PHASES_deleter# PHASES
+#PHASES_TEXT_1_deleter##PHASES_TEXT_1_1#
+#PHASES_TEXT_1_deleter#    #PHASES_TEXT_1_2#
+#PHASES_TEXT_1_deleter#    log_k     #PHASES_TEXT_1_6#
+#PHASES_TEXT_1_8_deleter#    delta_h   #PHASES_TEXT_1_8# #PHASES_TEXT_1_3#
+#PHASES_TEXT_1_10_deleter#    -analytical_expression #PHASES_TEXT_1_10# #PHASES_TEXT_1_12# #PHASES_TEXT_1_14# #PHASES_TEXT_1_16# #PHASES_TEXT_1_18# #PHASES_TEXT_1_20#
+#PHASES_TEXT_1_22_deleter#    -Vm       #PHASES_TEXT_1_22# #PHASES_TEXT_1_5#
+#PHASES_TEXT_1_24_deleter#    -T_c      #PHASES_TEXT_1_24#
+#PHASES_TEXT_1_26_deleter#    -P_c      #PHASES_TEXT_1_26#
+#PHASES_TEXT_1_28_deleter#    -Omega    #PHASES_TEXT_1_28#
+    #PHASES_TEXT_1_4#
+
+#PHASES_TEXT_2_deleter##PHASES_TEXT_2_1#
+#PHASES_TEXT_2_deleter#    #PHASES_TEXT_2_2#
+#PHASES_TEXT_2_deleter#    log_k     #PHASES_TEXT_2_6#
+#PHASES_TEXT_2_8_deleter#    delta_h   #PHASES_TEXT_2_8# #PHASES_TEXT_2_3#
+#PHASES_TEXT_2_10_deleter#    -analytical_expression #PHASES_TEXT_2_10# #PHASES_TEXT_2_12# #PHASES_TEXT_2_14# #PHASES_TEXT_2_16# #PHASES_TEXT_2_18# #PHASES_TEXT_2_20#
+#PHASES_TEXT_2_22_deleter#    -Vm       #PHASES_TEXT_2_22# #PHASES_TEXT_2_5#
+#PHASES_TEXT_2_24_deleter#    -T_c      #PHASES_TEXT_2_24#
+#PHASES_TEXT_2_26_deleter#    -P_c      #PHASES_TEXT_2_26#
+#PHASES_TEXT_2_28_deleter#    -Omega    #PHASES_TEXT_2_28#
+    #PHASES_TEXT_2_4#
+
+#PHASES_TEXT_3_deleter##PHASES_TEXT_3_1#
+#PHASES_TEXT_3_deleter#    #PHASES_TEXT_3_2#
+#PHASES_TEXT_3_deleter#    log_k     #PHASES_TEXT_3_6#
+#PHASES_TEXT_3_8_deleter#    delta_h   #PHASES_TEXT_3_8# #PHASES_TEXT_3_3#
+#PHASES_TEXT_3_10_deleter#    -analytical_expression #PHASES_TEXT_3_10# #PHASES_TEXT_3_12# #PHASES_TEXT_3_14# #PHASES_TEXT_3_16# #PHASES_TEXT_3_18# #PHASES_TEXT_3_20#
+#PHASES_TEXT_3_22_deleter#    -Vm       #PHASES_TEXT_3_22# #PHASES_TEXT_3_5#
+#PHASES_TEXT_3_24_deleter#    -T_c      #PHASES_TEXT_3_24#
+#PHASES_TEXT_3_26_deleter#    -P_c      #PHASES_TEXT_3_26#
+#PHASES_TEXT_3_28_deleter#    -Omega    #PHASES_TEXT_3_28#
+    #PHASES_TEXT_3_4#
+
+#PHASES_TEXT_4_deleter##PHASES_TEXT_4_1#
+#PHASES_TEXT_4_deleter#    #PHASES_TEXT_4_2#
+#PHASES_TEXT_4_deleter#    log_k     #PHASES_TEXT_4_6#
+#PHASES_TEXT_4_8_deleter#    delta_h   #PHASES_TEXT_4_8# #PHASES_TEXT_4_3#
+#PHASES_TEXT_4_10_deleter#    -analytical_expression #PHASES_TEXT_4_10# #PHASES_TEXT_4_12# #PHASES_TEXT_4_14# #PHASES_TEXT_4_16# #PHASES_TEXT_4_18# #PHASES_TEXT_4_20#
+#PHASES_TEXT_4_22_deleter#    -Vm       #PHASES_TEXT_4_22# #PHASES_TEXT_4_5#
+#PHASES_TEXT_4_24_deleter#    -T_c      #PHASES_TEXT_4_24#
+#PHASES_TEXT_4_26_deleter#    -P_c      #PHASES_TEXT_4_26#
+#PHASES_TEXT_4_28_deleter#    -Omega    #PHASES_TEXT_4_28#
+    #PHASES_TEXT_4_4#
+
+#PHASES_TEXT_5_deleter##PHASES_TEXT_5_1#
+#PHASES_TEXT_5_deleter#    #PHASES_TEXT_5_2#
+#PHASES_TEXT_5_deleter#    log_k     #PHASES_TEXT_5_6#
+#PHASES_TEXT_5_8_deleter#    delta_h   #PHASES_TEXT_5_8# #PHASES_TEXT_5_3#
+#PHASES_TEXT_5_10_deleter#    -analytical_expression #PHASES_TEXT_5_10# #PHASES_TEXT_5_12# #PHASES_TEXT_5_14# #PHASES_TEXT_5_16# #PHASES_TEXT_5_18# #PHASES_TEXT_5_20#
+#PHASES_TEXT_5_22_deleter#    -Vm       #PHASES_TEXT_5_22# #PHASES_TEXT_5_5#
+#PHASES_TEXT_5_24_deleter#    -T_c      #PHASES_TEXT_5_24#
+#PHASES_TEXT_5_26_deleter#    -P_c      #PHASES_TEXT_5_26#
+#PHASES_TEXT_5_28_deleter#    -Omega    #PHASES_TEXT_5_28#
+    #PHASES_TEXT_5_4#
+
+#PHASES_TEXT_6_deleter##PHASES_TEXT_6_1#
+#PHASES_TEXT_6_deleter#    #PHASES_TEXT_6_2#
+#PHASES_TEXT_6_deleter#    log_k     #PHASES_TEXT_6_6#
+#PHASES_TEXT_6_8_deleter#    delta_h   #PHASES_TEXT_6_8# #PHASES_TEXT_6_3#
+#PHASES_TEXT_6_10_deleter#    -analytical_expression #PHASES_TEXT_6_10# #PHASES_TEXT_6_12# #PHASES_TEXT_6_14# #PHASES_TEXT_6_16# #PHASES_TEXT_6_18# #PHASES_TEXT_6_20#
+#PHASES_TEXT_6_22_deleter#    -Vm       #PHASES_TEXT_6_22# #PHASES_TEXT_6_5#
+#PHASES_TEXT_6_24_deleter#    -T_c      #PHASES_TEXT_6_24#
+#PHASES_TEXT_6_26_deleter#    -P_c      #PHASES_TEXT_6_26#
+#PHASES_TEXT_6_28_deleter#    -Omega    #PHASES_TEXT_6_28#
+    #PHASES_TEXT_6_4#
+
+#PHASES_TEXT_7_deleter##PHASES_TEXT_7_1#
+#PHASES_TEXT_7_deleter#    #PHASES_TEXT_7_2#
+#PHASES_TEXT_7_deleter#    log_k     #PHASES_TEXT_7_6#
+#PHASES_TEXT_7_8_deleter#    delta_h   #PHASES_TEXT_7_8# #PHASES_TEXT_7_3#
+#PHASES_TEXT_7_10_deleter#    -analytical_expression #PHASES_TEXT_7_10# #PHASES_TEXT_7_12# #PHASES_TEXT_7_14# #PHASES_TEXT_7_16# #PHASES_TEXT_7_18# #PHASES_TEXT_7_20#
+#PHASES_TEXT_7_22_deleter#    -Vm       #PHASES_TEXT_7_22# #PHASES_TEXT_7_5#
+#PHASES_TEXT_7_24_deleter#    -T_c      #PHASES_TEXT_7_24#
+#PHASES_TEXT_7_26_deleter#    -P_c      #PHASES_TEXT_7_26#
+#PHASES_TEXT_7_28_deleter#    -Omega    #PHASES_TEXT_7_28#
+    #PHASES_TEXT_7_4#
+
+#PHASES_TEXT_8_deleter##PHASES_TEXT_8_1#
+#PHASES_TEXT_8_deleter#    #PHASES_TEXT_8_2#
+#PHASES_TEXT_8_deleter#    log_k     #PHASES_TEXT_8_6#
+#PHASES_TEXT_8_8_deleter#    delta_h   #PHASES_TEXT_8_8# #PHASES_TEXT_8_3#
+#PHASES_TEXT_8_10_deleter#    -analytical_expression #PHASES_TEXT_8_10# #PHASES_TEXT_8_12# #PHASES_TEXT_8_14# #PHASES_TEXT_8_16# #PHASES_TEXT_8_18# #PHASES_TEXT_8_20#
+#PHASES_TEXT_8_22_deleter#    -Vm       #PHASES_TEXT_8_22# #PHASES_TEXT_8_5#
+#PHASES_TEXT_8_24_deleter#    -T_c      #PHASES_TEXT_8_24#
+#PHASES_TEXT_8_26_deleter#    -P_c      #PHASES_TEXT_8_26#
+#PHASES_TEXT_8_28_deleter#    -Omega    #PHASES_TEXT_8_28#
+    #PHASES_TEXT_8_4#
+
+#PHASES_TEXT_9_deleter##PHASES_TEXT_9_1#
+#PHASES_TEXT_9_deleter#    #PHASES_TEXT_9_2#
+#PHASES_TEXT_9_deleter#    log_k     #PHASES_TEXT_9_6#
+#PHASES_TEXT_9_8_deleter#    delta_h   #PHASES_TEXT_9_8# #PHASES_TEXT_9_3#
+#PHASES_TEXT_9_10_deleter#    -analytical_expression #PHASES_TEXT_9_10# #PHASES_TEXT_9_12# #PHASES_TEXT_9_14# #PHASES_TEXT_9_16# #PHASES_TEXT_9_18# #PHASES_TEXT_9_20#
+#PHASES_TEXT_9_22_deleter#    -Vm       #PHASES_TEXT_9_22# #PHASES_TEXT_9_5#
+#PHASES_TEXT_9_24_deleter#    -T_c      #PHASES_TEXT_9_24#
+#PHASES_TEXT_9_26_deleter#    -P_c      #PHASES_TEXT_9_26#
+#PHASES_TEXT_9_28_deleter#    -Omega    #PHASES_TEXT_9_28#
+    #PHASES_TEXT_9_4#
+
+#PHASES_TEXT_10_deleter##PHASES_TEXT_10_1#
+#PHASES_TEXT_10_deleter#    #PHASES_TEXT_10_2#
+#PHASES_TEXT_10_deleter#    log_k     #PHASES_TEXT_10_6#
+#PHASES_TEXT_10_8_deleter#    delta_h   #PHASES_TEXT_10_8# #PHASES_TEXT_10_3#
+#PHASES_TEXT_10_10_deleter#    -analytical_expression #PHASES_TEXT_10_10# #PHASES_TEXT_10_12# #PHASES_TEXT_10_14# #PHASES_TEXT_10_16# #PHASES_TEXT_10_18# #PHASES_TEXT_10_20#
+#PHASES_TEXT_10_22_deleter#    -Vm       #PHASES_TEXT_10_22# #PHASES_TEXT_10_5#
+#PHASES_TEXT_10_24_deleter#    -T_c      #PHASES_TEXT_10_24#
+#PHASES_TEXT_10_26_deleter#    -P_c      #PHASES_TEXT_10_26#
+#PHASES_TEXT_10_28_deleter#    -Omega    #PHASES_TEXT_10_28#
+    #PHASES_TEXT_10_4#
+
+#PHASES_TEXT_11_deleter##PHASES_TEXT_11_1#
+#PHASES_TEXT_11_deleter#    #PHASES_TEXT_11_2#
+#PHASES_TEXT_11_deleter#    log_k     #PHASES_TEXT_11_6#
+#PHASES_TEXT_11_8_deleter#    delta_h   #PHASES_TEXT_11_8# #PHASES_TEXT_11_3#
+#PHASES_TEXT_11_10_deleter#    -analytical_expression #PHASES_TEXT_11_10# #PHASES_TEXT_11_12# #PHASES_TEXT_11_14# #PHASES_TEXT_11_16# #PHASES_TEXT_11_18# #PHASES_TEXT_11_20#
+#PHASES_TEXT_11_22_deleter#    -Vm       #PHASES_TEXT_11_22# #PHASES_TEXT_11_5#
+#PHASES_TEXT_11_24_deleter#    -T_c      #PHASES_TEXT_11_24#
+#PHASES_TEXT_11_26_deleter#    -P_c      #PHASES_TEXT_11_26#
+#PHASES_TEXT_11_28_deleter#    -Omega    #PHASES_TEXT_11_28#
+    #PHASES_TEXT_11_4#
+
+#PHASES_TEXT_12_deleter##PHASES_TEXT_12_1#
+#PHASES_TEXT_12_deleter#    #PHASES_TEXT_12_2#
+#PHASES_TEXT_12_deleter#    log_k     #PHASES_TEXT_12_6#
+#PHASES_TEXT_12_8_deleter#    delta_h   #PHASES_TEXT_12_8# #PHASES_TEXT_12_3#
+#PHASES_TEXT_12_10_deleter#    -analytical_expression #PHASES_TEXT_12_10# #PHASES_TEXT_12_12# #PHASES_TEXT_12_14# #PHASES_TEXT_12_16# #PHASES_TEXT_12_18# #PHASES_TEXT_12_20#
+#PHASES_TEXT_12_22_deleter#    -Vm       #PHASES_TEXT_12_22# #PHASES_TEXT_12_5#
+#PHASES_TEXT_12_24_deleter#    -T_c      #PHASES_TEXT_12_24#
+#PHASES_TEXT_12_26_deleter#    -P_c      #PHASES_TEXT_12_26#
+#PHASES_TEXT_12_28_deleter#    -Omega    #PHASES_TEXT_12_28#
+    #PHASES_TEXT_12_4#
+	
+#PHASES_TEXT_13_deleter##PHASES_TEXT_13_1#
+#PHASES_TEXT_13_deleter#    #PHASES_TEXT_13_2#
+#PHASES_TEXT_13_deleter#    log_k     #PHASES_TEXT_13_6#
+#PHASES_TEXT_13_8_deleter#    delta_h   #PHASES_TEXT_13_8# #PHASES_TEXT_13_3#
+#PHASES_TEXT_13_10_deleter#    -analytical_expression #PHASES_TEXT_13_10# #PHASES_TEXT_13_12# #PHASES_TEXT_13_14# #PHASES_TEXT_13_16# #PHASES_TEXT_13_18# #PHASES_TEXT_13_20#
+#PHASES_TEXT_13_22_deleter#    -Vm       #PHASES_TEXT_13_22# #PHASES_TEXT_13_5#
+#PHASES_TEXT_13_24_deleter#    -T_c      #PHASES_TEXT_13_24#
+#PHASES_TEXT_13_26_deleter#    -P_c      #PHASES_TEXT_13_26#
+#PHASES_TEXT_13_28_deleter#    -Omega    #PHASES_TEXT_13_28#
+    #PHASES_TEXT_13_4#
+
+#PHASES_TEXT_14_deleter##PHASES_TEXT_14_1#
+#PHASES_TEXT_14_deleter#    #PHASES_TEXT_14_2#
+#PHASES_TEXT_14_deleter#    log_k     #PHASES_TEXT_14_6#
+#PHASES_TEXT_14_8_deleter#    delta_h   #PHASES_TEXT_14_8# #PHASES_TEXT_14_3#
+#PHASES_TEXT_14_10_deleter#    -analytical_expression #PHASES_TEXT_14_10# #PHASES_TEXT_14_12# #PHASES_TEXT_14_14# #PHASES_TEXT_14_16# #PHASES_TEXT_14_18# #PHASES_TEXT_14_20#
+#PHASES_TEXT_14_22_deleter#    -Vm       #PHASES_TEXT_14_22# #PHASES_TEXT_14_5#
+#PHASES_TEXT_14_24_deleter#    -T_c      #PHASES_TEXT_14_24#
+#PHASES_TEXT_14_26_deleter#    -P_c      #PHASES_TEXT_14_26#
+#PHASES_TEXT_14_28_deleter#    -Omega    #PHASES_TEXT_14_28#
+    #PHASES_TEXT_14_4#	
+	
+#PHASES_TEXT_15_deleter##PHASES_TEXT_15_1#
+#PHASES_TEXT_15_deleter#    #PHASES_TEXT_15_2#
+#PHASES_TEXT_15_deleter#    log_k     #PHASES_TEXT_15_6#
+#PHASES_TEXT_15_8_deleter#    delta_h   #PHASES_TEXT_15_8# #PHASES_TEXT_15_3#
+#PHASES_TEXT_15_10_deleter#    -analytical_expression #PHASES_TEXT_15_10# #PHASES_TEXT_15_12# #PHASES_TEXT_15_14# #PHASES_TEXT_15_16# #PHASES_TEXT_15_18# #PHASES_TEXT_15_20#
+#PHASES_TEXT_15_22_deleter#    -Vm       #PHASES_TEXT_15_22# #PHASES_TEXT_15_5#
+#PHASES_TEXT_15_24_deleter#    -T_c      #PHASES_TEXT_15_24#
+#PHASES_TEXT_15_26_deleter#    -P_c      #PHASES_TEXT_15_26#
+#PHASES_TEXT_15_28_deleter#    -Omega    #PHASES_TEXT_15_28#
+    #PHASES_TEXT_15_4#
+END	
+EQUILIBRIUM_PHASES 1
+#EQUI_PHASE_1# 0 0
+#EQUI_PHASE_2# 0 0
+#EQUI_PHASE_3# 0 0
+#EQUI_PHASE_4# 0 0
+#EQUI_PHASE_5# 0 0
+#EQUI_PHASE_6# 0 0
+#EQUI_PHASE_7# 0 0
+#EQUI_PHASE_8# 0 0
+#EQUI_PHASE_9# 0 0
+#EQUI_PHASE_10# 0 0
+#EQUI_PHASE_11# 0 0
+#EQUI_PHASE_12# 0 0
+#EQUI_PHASE_13# 0 0
+#EQUI_PHASE_14# 0 0
+#EQUI_PHASE_15# 0 0
+#EQUI_PHASE_16# 0 0
+#EQUI_PHASE_17# 0 0
+#EQUI_PHASE_18# 0 0
+#EQUI_PHASE_19# 0 0
+#EQUI_PHASE_20# 0 0
+#EQUI_PHASE_21# 0 0
+#EQUI_PHASE_22# 0 0
+#EQUI_PHASE_23# 0 0
+#EQUI_PHASE_24# 0 0
+#EQUI_PHASE_25# 0 0
+#EQUI_PHASE_26# 0 0
+#EQUI_PHASE_27# 0 0
+#EQUI_PHASE_28# 0 0
+#EQUI_PHASE_29# 0 0
+#EQUI_PHASE_30# 0 0
+#EQUI_PHASE_31# 0 0
+#EQUI_PHASE_32# 0 0
+#EQUI_PHASE_33# 0 0
+#EQUI_PHASE_34# 0 0
+#EQUI_PHASE_35# 0 0
+#EQUI_PHASE_36# 0 0
+#EQUI_PHASE_37# 0 0
+#EQUI_PHASE_38# 0 0
+#EQUI_PHASE_39# 0 0
+#EQUI_PHASE_40# 0 0
+#EQUI_PHASE_41# 0 0
+#EQUI_PHASE_42# 0 0
+#EQUI_PHASE_43# 0 0
+#EQUI_PHASE_44# 0 0
+#EQUI_PHASE_45# 0 0
+#EQUI_PHASE_46# 0 0
+#EQUI_PHASE_47# 0 0
+#EQUI_PHASE_48# 0 0
+#EQUI_PHASE_49# 0 0
+#EQUI_PHASE_50# 0 0
+#EQUI_PHASE_51# 0 0
+#EQUI_PHASE_52# 0 0
+#EQUI_PHASE_53# 0 0
+#EQUI_PHASE_54# 0 0
+#EQUI_PHASE_55# 0 0
+#EQUI_PHASE_56# 0 0
+#EQUI_PHASE_57# 0 0
+#EQUI_PHASE_58# 0 0
+#EQUI_PHASE_59# 0 0
+#EQUI_PHASE_60# 0 0
+REACTION 1
+    #REACTION_COMPONENT 1#
+    #REACTION_COMPONENT 2#
+    #REACTION_COMPONENT 3#
+    #REACTION_COMPONENT 4#
+    #REACTION_COMPONENT 5#
+    #REACTION_COMPONENT 6#
+    #REACTION_COMPONENT 7#
+    #REACTION_COMPONENT 8#
+    #REACTION_COMPONENT 9#
+    #REACTION_COMPONENT 10#
+    #REACTION_COMPONENT 11#
+    #REACTION_COMPONENT 12#
+    #REACTION_COMPONENT 13#
+    #REACTION_COMPONENT 14#
+    #REACTION_COMPONENT 15#
+    #REACTION_COMPONENT 16#
+    #REACTION_COMPONENT 17#
+    #REACTION_COMPONENT 18#
+    #REACTION_COMPONENT 19#
+    #REACTION_COMPONENT 20#
+    ####REACTION STEPS####  micromoles
+REACTION_TEMPERATURE 1
+    ####TEMPERATURE####
+REACTION_PRESSURE 1
+    ####reaction_pressure####
+SOLUTION_SPECIES
+H2O + 0.01e- = H2O-0.01
+    log_k     -9
+	
+END
+
+####KNOBS 2 INPUT ####KNOBS
+####KNOBS 2 INPUT ####    -iterations            ####iterations####
+####KNOBS 2 INPUT ####    -convergence_tolerance ####convergence_tolerance_2####
+####KNOBS 2 INPUT ####    -tolerance             ####tolerance_2####
+####KNOBS 2 INPUT ####    -step_size             ####step_size_2####
+####KNOBS 2 INPUT ####    -pe_step_size          ####pe_step_size_2####
+END
+SELECTED_OUTPUT 1
+    -file                 selected_output
+    -reset                false
+    -simulation           false
+    -solution             false
+    -step                 false
+    -pH                   true
+    -reaction             true
+    -temperature          true
+    -alkalinity           false
+	-pe                   true
+    -totals               Alkalinity  C(4)  Ca  Cl  F  Fe  K
+                          Mg  Na  S(6)  Si
+    -saturation_indices   #EQUI_PHASE_1# 
+                          #EQUI_PHASE_2# 
+                          #EQUI_PHASE_3# 
+                          #EQUI_PHASE_4# 
+                          #EQUI_PHASE_5# 
+                          #EQUI_PHASE_6# 
+                          #EQUI_PHASE_7# 
+                          #EQUI_PHASE_8# 
+                          #EQUI_PHASE_9# 
+                          #EQUI_PHASE_10# 
+                          #EQUI_PHASE_11# 
+                          #EQUI_PHASE_12# 
+                          #EQUI_PHASE_13# 
+                          #EQUI_PHASE_14# 
+                          #EQUI_PHASE_15# 
+                          #EQUI_PHASE_16# 
+                          #EQUI_PHASE_17# 
+                          #EQUI_PHASE_18# 
+                          #EQUI_PHASE_19# 
+                          #EQUI_PHASE_20# 
+                          #EQUI_PHASE_21# 
+                          #EQUI_PHASE_22# 
+                          #EQUI_PHASE_23# 
+                          #EQUI_PHASE_24# 
+                          #EQUI_PHASE_25# 
+                          #EQUI_PHASE_26# 
+                          #EQUI_PHASE_27# 
+                          #EQUI_PHASE_28# 
+                          #EQUI_PHASE_29# 
+                          #EQUI_PHASE_30# 
+                          #EQUI_PHASE_31# 
+                          #EQUI_PHASE_32# 
+                          #EQUI_PHASE_33# 
+                          #EQUI_PHASE_34# 
+                          #EQUI_PHASE_35# 
+                          #EQUI_PHASE_36# 
+                          #EQUI_PHASE_37# 
+                          #EQUI_PHASE_38# 
+                          #EQUI_PHASE_39# 
+                          #EQUI_PHASE_40# 
+                          #EQUI_PHASE_41# 
+                          #EQUI_PHASE_42# 
+                          #EQUI_PHASE_43# 
+                          #EQUI_PHASE_44# 
+                          #EQUI_PHASE_45# 
+                          #EQUI_PHASE_46# 
+                          #EQUI_PHASE_47# 
+                          #EQUI_PHASE_48# 
+                          #EQUI_PHASE_49# 
+                          #EQUI_PHASE_50# 
+                          #EQUI_PHASE_51# 
+                          #EQUI_PHASE_52# 
+                          #EQUI_PHASE_53# 
+                          #EQUI_PHASE_54# 
+                          #EQUI_PHASE_55# 
+                          #EQUI_PHASE_56# 
+                          #EQUI_PHASE_57# 
+                          #EQUI_PHASE_58# 
+                          #EQUI_PHASE_59# 
+                          #EQUI_PHASE_60# 
+                          #EQUI_PHASE_61# 
+                          #EQUI_PHASE_62# 
+                          #EQUI_PHASE_63# 
+                          #EQUI_PHASE_64# 
+                          #EQUI_PHASE_65# 
+                          #EQUI_PHASE_66# 
+                          #EQUI_PHASE_67# 
+                          #EQUI_PHASE_68# 
+                          #EQUI_PHASE_69# 
+                          #EQUI_PHASE_70# 
+                          #EQUI_PHASE_71# 
+                          #EQUI_PHASE_72# 
+                          #EQUI_PHASE_73# 
+                          #EQUI_PHASE_74# 
+                          #EQUI_PHASE_75# 
+                          #EQUI_PHASE_76# 
+                          #EQUI_PHASE_77# 
+                          #EQUI_PHASE_78# 
+                          #EQUI_PHASE_79# 
+                          #EQUI_PHASE_80# 
+                          #EQUI_PHASE_81# 
+                          #EQUI_PHASE_82# 
+                          #EQUI_PHASE_83# 
+                          #EQUI_PHASE_84# 
+                          #EQUI_PHASE_85# 
+                          #EQUI_PHASE_86# 
+                          #EQUI_PHASE_87# 
+                          #EQUI_PHASE_88# 
+                          #EQUI_PHASE_89# 
+                          #EQUI_PHASE_90# 
+                          #EQUI_PHASE_91# 
+                          #EQUI_PHASE_92# 
+                          #EQUI_PHASE_93# 
+                          #EQUI_PHASE_94# 
+                          #EQUI_PHASE_95# 
+                          #EQUI_PHASE_96# 
+                          #EQUI_PHASE_97# 
+                          #EQUI_PHASE_98# 
+                          #EQUI_PHASE_99# 
+                          #EQUI_PHASE_100# 
+USER_PUNCH
+-headings Pressure_Pa
+10 PUNCH PRESSURE 
+
+END
+USE SOLUTION 1;USE EQUILIBRIUM_PHASES 1;USE REACTION 1;USE REACTION_TEMPERATURE 1;USE REACTION_PRESSURE 1;END
+
